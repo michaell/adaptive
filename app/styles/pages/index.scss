@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons{
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+}
+
+.btn {
+    margin: 10px;
+    padding: 0px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7b733;
+    border: 0px;
+    transition: .3s ease all;
+    &:hover {
+        background: #fca800;
+    }
+}
+
+.link {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+
